@@ -53,5 +53,5 @@ public class Main
 
 
 ## RESULT:
-Thus the  Java program successfully creates a StringBuilder object using the given string and stores the reference in the variable sb. The contents of the object are printed using the reference variable.
+Thus the Java program successfully has calculate the number of tokens present in the tokenizer string.
 
