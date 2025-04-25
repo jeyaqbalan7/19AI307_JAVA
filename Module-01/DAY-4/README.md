@@ -30,7 +30,7 @@ RegisterNumber: 212222230103
 ```
 
 ## Sourcecode.java:
-
+```
 import java.util.*;
 public class Area 
 {
@@ -47,7 +47,7 @@ public class Area
        obj.calculateArea();
        }
 }
-
+```
 ## OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/b381fe96-a993-437d-9d4d-98d2cc383e19)
