@@ -54,7 +54,7 @@ System.out.println(sb);
 Input         Expected       Got
 
 Hello         Hello Java     Hello Java
-Welcome 
+Java 
 
 Hi            Hi Welcome     Hi Welcome
 Welcome
