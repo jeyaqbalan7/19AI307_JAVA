@@ -30,6 +30,7 @@ RegisterNumber: 212222240040
 ```
 
 ## Sourcecode.java:
+```
 import java.util.*;
 class prog{
     public static void main(String[] args)
@@ -42,7 +43,7 @@ class prog{
     }
 }
 
-
+```
 
 
 
