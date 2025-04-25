@@ -63,7 +63,7 @@ public class Main
 
 
 ## OUTPUT:
-
+```
 Input       Expected                                  Got
 
 3           Elements in Array are :                   Elements in Array are :                   
@@ -73,7 +73,7 @@ Input       Expected                                  Got
 6
 7
 
-
+```
 ## RESULT:
 Thus, the Java program Thus the java program to read 5 values and display the all 5 values from array using single dimensional  was executed successfully.
 
