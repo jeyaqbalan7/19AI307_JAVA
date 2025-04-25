@@ -50,7 +50,18 @@ class prog{
 
 
 ## OUTPUT:
-file:///C:/Users/SEC/Downloads/WhatsApp Image 2025-04-25 at 15.40.13.jpeg
+```
+Input    Expected   Got
+
+23       true       true
+34
+
+124      false      false
+23
+```
+
+
+RESULT:
 
 
 ## RESULT:
