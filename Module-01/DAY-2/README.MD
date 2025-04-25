@@ -24,12 +24,23 @@ b)	If the condition is false, print "false" using the 'print' method of 'System.
  ```
 /*
 Program to implement a variable and operators using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Jeyabalan T
+RegisterNumber: 212222240040 
 */
 ```
 
 ## Sourcecode.java:
+import java.util.*;
+class prog{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        boolean c=(a<50)&&(a<b);
+        System.out.println(c);
+    }
+}
 
 
 
@@ -38,7 +49,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
-
+file:///C:/Users/SEC/Downloads/WhatsApp Image 2025-04-25 at 15.40.13.jpeg
 
 
 ## RESULT:
