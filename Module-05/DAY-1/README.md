@@ -80,7 +80,7 @@ public class Main {
 
 ## OUTPUT:
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/781fdc29-385a-4a25-bdb3-72d4c304f256)
 
 
 ## RESULT:
