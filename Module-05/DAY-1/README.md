@@ -9,31 +9,31 @@ To Create a java program to display the age of the person.Use access modifier pr
 
 3. Define class Person:
 
- Declare a private int variable age.
- 
- Create a method setAge(int age):
- 
- Assign the input parameter age to the instance variable age.
- 
- Create a method getAge():
- 
- Return the value of age.
+   Declare a private int variable age.
+   
+   Create a method setAge(int age):
+   
+   Assign the input parameter age to the instance variable age.
+   
+   Create a method getAge():
+   
+   Return the value of age.
 
 4. Define class Main:
 
- In the main method:
- 
- Create a Scanner object scanner to read user input.
- 
- Create an object p of class Person.
- 
- Read an integer from the user and store it in inputAge.
- 
- Call p.setAge(inputAge) to set the age in the Person object.
- 
- Print "My age is " followed by the value returned by p.getAge().
- 
- Close the scanner.
+   In the main method:
+   
+   Create a Scanner object scanner to read user input.
+   
+   Create an object p of class Person.
+   
+   Read an integer from the user and store it in inputAge.
+   
+   Call p.setAge(inputAge) to set the age in the Person object.
+   
+   Print "My age is " followed by the value returned by p.getAge().
+   
+   Close the scanner.
 
 5. End
 
