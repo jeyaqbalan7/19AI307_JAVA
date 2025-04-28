@@ -70,7 +70,14 @@ public class Main {
 
 ## OUTPUT:
 
+```
+Input     Expected    Got
 
+pot       top         top
+
+lap       pal         pal
+
+```
 
 ## RESULT:
 Thus a java program to display the reverse string and  use tightly encapsulated classwas executed successfully.
