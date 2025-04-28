@@ -84,4 +84,5 @@ public class Main {
 
 
 ## RESULT:
-Thus , the  java program to display name and location of the employee and use the encapsulation concepts executed successfully.
+Thus , the  java program to display the age of the person.Use access modifier private to achieve the data hiding concepts.
+
