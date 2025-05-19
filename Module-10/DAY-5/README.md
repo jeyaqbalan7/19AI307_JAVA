@@ -4,6 +4,7 @@
 To Write a Java program to extract a portion of a list. index value from 1 to 3.
 
 ## ALGORITHM :
+```
   1)Start
   2)Create a Scanner object to read input from the user.
   3)Create an empty ArrayList of type String named list_Strings.
@@ -19,7 +20,7 @@ To Write a Java program to extract a portion of a list. index value from 1 to 3.
   11)Print the sublist using System.out.println().
   12)End
 
-
+```
 
 ## PROGRAM:
  ```
