@@ -1,75 +1,64 @@
-# Ex.No:5(E) HAS-A RELATIONSHIP
+# Ex.No:5(D) IS-A RELATIONSHIP AND HAS-A RELATIONSHIP
 ## AIM:
-To implement a java program for area of triangle with the help of getter and setter method and to print the value of area of triangle.
+   To Create a java program create a three class and apply is-a relationship concepts and display the output refer sample test.
+ 
 ## ALGORITHM :
 
-1. Start the program and import Scanner for user input.
+1. Start the program.
 
-2. Create a TriangleArea class with:
+2. Create a class Animal with a method eat() that prints "I can eat".
 
-   Private variables width and height.
-   
-   Methods setWidth(double) and setHeight(double) to assign values.
-   
-   Method getArea() that returns the area by multiplying width and height.
+3. Create a class Person that inherits from Animal, and add a method name() that prints "My name is Rohu".
 
-3. In the main method:
+4. Create a Main class that inherits from Person:
 
-   Create a Scanner object and a TriangleArea object.
-   
-   Read two double inputs from the user (for width and height).
+   In the main method:
+      
+      Create an object of Main.
+      
+      Call name() to print the name.
+      
+      Call eat() to print the eating ability.
 
-4. Set the width and height in the TriangleArea object and calculate the area.
+5. End the program.
 
-5. Print the area (after converting it to an integer) and close the scanner.
 ## PROGRAM:
  ```
 /*
-Program to implement a HAS-A RelationShip
+Program to implement a IS-A RELATIONSHIP AND HAS-A RELATIONSHIP using Java
 Developed by: Jeyabalan T
 RegisterNumber: 212222240040
 */
 ```
 
 ## Sourcecode.java:
-
-
 ```
-import java.util.Scanner;
-public class TriangleArea {
-
-    private double width;
-    private double height;
-
-    public void setWidth(double width) {
-        this.width = width;
-    }
-
-    public void setHeight(double height) {
-        this.height = height;
-    }
-
-    public double getArea() {
-        return width * height;
-    }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        TriangleArea triangle = new TriangleArea();
-        double w = sc.nextDouble(); 
-        double h = sc.nextDouble(); 
-        triangle.setWidth(w);
-        triangle.setHeight(h);
-        System.out.println((int)triangle.getArea());
+class Animal {
+    public void eat() {
+        System.out.println("I can eat");
     }
 }
 
+class Person extends Animal {
+    public void name() {
+        System.out.println("My name is Rohu");
+    }
+}
+
+public class Main extends Person {
+    public static void main(String[] args) {
+        Main obj = new Main();
+        obj.name();
+        obj.eat();
+    }
+}
 ```
+
 
 ## OUTPUT:
 
-![image](https://github.com/user-attachments/assets/6761079b-9734-42e3-bbcd-705e07963810)
+![image](https://github.com/user-attachments/assets/1846d70a-097b-4b4d-a830-f0f1da459732)
 
 
 ## RESULT:
-Thus the java program to Find the Largest or Max Number in Array using has - a relationship was executed successfully. 
+Thus the java program to find factorial of number using class and object concepts and apply the has-a relationship was executed successfully.
