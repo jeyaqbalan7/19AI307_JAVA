@@ -1,25 +1,19 @@
-# Ex.No:7(E)  POLYMORPHISM
-
+# Ex.No:7(D) SYNCHRONIZATION
 ## AIM:
-
-To implement method overloading in Java to demonstrate compile-time polymorphism
-
+ To Develop a Java Program to perform static synchronization method for the below Scenario Create a Class Display with synchronized void wish method in that perform "Welcome : Message. Note :Assume Sleep as 400 ms i.e Thread.Sleep(400)
+ 
 ## ALGORITHM :
-
-1. Create a class p with two methods: display() and display1().
-
-2. In display(), use a loop to print the digit 5 ten times.
-
-3. In display1(), use a loop to print the symbol # ten times.
-
-4. Create another class demo with the main() method.
-
-5. In main(), create an object of class p, call display(), print a newline, then call display1().
+1.	1.	Start the Program.
+2.	Define class `Display`:
+-	a) Create a `Scanner` object `sc` for input
+-	b) Define a synchronized method `wish(String str)`:
+- i) Print "Welcome :: " followed by `str` (twice)
+3.	End
 
 ## PROGRAM:
  ```
 /*
-Program to implement a Method Overloading in Java
+Program to implement a Packages using Java
 Developed by: Jeyabalan T
 RegisterNumber: 212222240040
 */
@@ -27,46 +21,25 @@ RegisterNumber: 212222240040
 
 ## Sourcecode.java:
 ```
-/* Online Java Compiler and Editor */
-class Pattern {
+  class Display {
 
-  // method without parameter
-  public void display() {
-    for (int i = 0; i < 10; i++) {
-      System.out.print("5");
-    }
+	static synchronized void wish(String name) {
+		for (int i = 0; i <= 1; i++) {
+			System.out.print("Welcome :: ");
+			try {
+				Thread.sleep(600);
+			} catch (InterruptedException e) {
+
+			}
+			System.out.println(name);
+		}
+	}
   }
-
-  // method with single parameter
-  public void display(char symbol) {
-    for (int i = 0; i < 10; i++) {
-      System.out.print(symbol);
-    }
-  }
-}
-
-
-public class HelloWorld{
-
-     public static void main(String []args)
-     {
-        Pattern d1 = new Pattern();
-
-    // call method without any argument
-    d1.display();
-    System.out.println("\n");
-
-    // call method with a single argument
-    d1.display('#');
-     }
-}
 ```
 
 ## OUTPUT:
 
-![image](https://github.com/user-attachments/assets/7b51dfba-38ac-480f-a70d-77ad97d55c0b)
-
+![image](https://github.com/user-attachments/assets/d1839a22-c590-495f-bc6a-303d5f85e3db)
 
 ## RESULT:
-
-Thus the  java program successfully demonstrates method overloading, showing compile-time polymorphism is executed.
+Thus the java program for synchronization was executed successfully.
